@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color:black;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Bungee', cursive;
+}
+
+.container{
+	width: 80%;
+}
+
+/*NAV*/
+.navbar{
+	background: black;
+}
+
+.navbar .hover a{
+	border-top: thick solid #fff;
+}
+
+/*HOME*/
+.jumbotron{
+	background: url("./images/bg/skycg.jpg");
+	background-attachment: fixed;
+	height: 100vh;
+	color: white;
+	text-shadow: #000 0.1em 0.1em 0.1em;
+	padding-top: 25vh;
+}
+
+.jumbotron p{
+	font-weight: bold;
+	color: white;	
+}
+
+.jumbotron p a{
+	color: red;
+}
+
+.jumbotron .container{
+	background: black;
+	border-radius: 5em;
+	padding: 3em;
+	box-shadow: 0.5em 0.5em 0 0 white;
+}
+
+/*HEADSHOT*/
+#me{
+	float: right;
+	background-color: white;
+	border-radius: 50em;
+	width: 25%;
+	height: 25%;
+}
+
+/*CAROUSEL*/
+	#crs{
+		background: url("./images/bg/blueprint.png");
+		background-attachment: fixed;
+		height: 100%;
+	}
+
+	#crs img{
+		width: 30%;
+	}
+
+	.item{
+		padding: 3em;
+	}
+	.btn{
+		font-weight: bold;
+	}
+
+/*WRITING*/
+	#wrt{
+		color:white;
+		background: white;
+		font-family: 'Bungee', cursive;
+		padding: 5em;
+	}
+
+	/*CONTAINER ATTRIBUTES*/
+	#wrt .container{
+		background: black;
+		border-radius: 5em;
+		padding: 0.5em;
+	}
+
+	/*LINK COLORS*/
+	#wrt a{
+		color: white;
+	}
+
+	/*HOVER LINK COLOR*/
+	#wrt .hover a{
+		background-color: #1af;
+	}
+
+/*CONTACT*/
+	/*TITLE + BKG COLOR*/
+	#contact{
+		color: white;
+		background: black;
+	}
+
+	/*SOCIAL ICONS*/
+	#contact img{
+		width:3em;
+		height: 3em; 
+		background: white;
+		border-radius: 5em;
+		filter: invert(100%);
+	}
+
+	#contact img:hover{
+		filter: invert(0%);
+	}
+
+/*YY TAO*/
+#brand{
+	border-radius: 30em;
+	margin: 0.5em;
+	height: 3em;
+}
+
+footer img{
+	width: 3em;
+	height: 3em;
+}
