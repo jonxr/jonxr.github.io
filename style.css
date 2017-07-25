@@ -83,31 +83,6 @@ h1, h2, h3, h4, h5, h6{
 		font-weight: bold;
 	}
 
-/*WRITING*/
-	#wrt{
-		color:white;
-		background: white;
-		font-family: 'Bungee', cursive;
-		padding: 5em;
-	}
-
-	/*CONTAINER ATTRIBUTES*/
-	#wrt .container{
-		background: black;
-		border-radius: 5em;
-		padding: 0.5em;
-	}
-
-	/*LINK COLORS*/
-	#wrt a{
-		color: white;
-	}
-
-	/*HOVER LINK COLOR*/
-	#wrt .hover a{
-		background-color: #1af;
-	}
-
 /*CONTACT*/
 	/*TITLE + BKG COLOR*/
 	#contact{
