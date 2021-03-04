@@ -2,7 +2,6 @@ body {
   background: url('./assets/skycg.jpg') fixed center top;
   background-size: cover;
   font-family: 'Calibre','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;//-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-align:center;
   height: 100vh;
   width: 100vw;
   margin-top: 0;
@@ -16,20 +15,6 @@ h1, h2{
 
 h2{
   font-size: 1em;
-}
-.header{
-  margin-bottom: 0;
-  padding-top:0.1em;
-  padding-bottom:0.5em;
-  background-color: black;
-  color: white;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-size:1.5rem;
-  box-shadow: 0 10px 6px -6px black;
-  z-index: 10;
 }
 
 .buttons{
@@ -46,6 +31,7 @@ h2{
   position: fixed;
   left: 0;
   bottom: 0;
+  text-align: center;
 }
 
 p{
@@ -57,7 +43,7 @@ p{
 }
 
 .body {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 1.5em;
   display: flex;
   flex-wrap: wrap;
@@ -68,71 +54,52 @@ p{
   width: 100%;
 }
 
-.content{
+.box{
   margin: 1em;
   background-color: white;
   border: 0.2em black solid;
-  border-radius: 1em;
-  padding: 0.3em;
-  padding-top: 0;
+  border-radius: 0.5em;
+  padding: 1em;
   font-weight: bold;
   box-shadow: 0 10px 6px -6px black;
-  width: 90%;
+  min-height: 100px;
+  min-width: 20%;
+  text-align: center;
 }
 
 h3{
   background-color: black;
   color:white;
-  border-radius: 1em;
+  border-radius: 0.5em;
   margin: 0.25em;
   padding: 0.3em;
-}
-
-.profile{
-  border: 0.25em black solid;
-  border-radius: 50%;
-  box-shadow: 0 10px 6px -6px black;
-  width: 18vw;
 }
 
 .bg {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   width: 98%;
 }
 
-.edc {
-  margin: 0.5em;
-  background-color: white;
-  border: 0.2em black solid;
-  border-radius: 1em;
+.header{
+  text-align: center;
+  margin-bottom: 0;
+  padding-top:0.1em;
+  padding-bottom:0.5em;
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   box-shadow: 0 10px 6px -6px black;
-  width: 45%;
-}
-
-.edc img{
-  margin: 1em;
-  width: 8em;
-}
-
-.exp {
-  margin: 0.5em;
-  background-color: white;
-  border: 0.2em black solid;
-  border-radius: 1em;
-  box-shadow: 0 10px 6px -6px black;
-  width: 45%;
-}
-
-.exp img{
-  width: 4em;
-  margin: 1em;
+  z-index: 10;
 }
 
 a {
     color: white;
     margin: 1em;
+    font-size:1.5em;
 }
 
 a:hover {
@@ -152,7 +119,7 @@ a:hover {
     height: 100vh;
   }
   .header{
-    font-size: 3rem;
+    font-size: 1rem;
   }
   .footer{
     font-size: 1rem;
@@ -160,10 +127,7 @@ a:hover {
   .body{
     margin-top: 35%;
     margin-bottom: 0;
-    font-size: 2rem;
-  }
-  .profile{
-    width: 30vw;
+    font-size: 14px;
   }
 }
 
@@ -174,9 +138,6 @@ a:hover {
   .body{
     margin-bottom: 1.5em;
     margin-right: 1em;
-    font-size: 1rem;
-  }
-  .profile{
-    width: 15vw;
+    font-size: 14px;
   }
 }
