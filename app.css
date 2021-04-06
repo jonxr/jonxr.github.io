@@ -17,28 +17,6 @@ h2{
   font-size: 1em;
 }
 
-
-
-.video{
-  position:relative;
-  padding-bottom:56.25%;
-  padding-top:30px;
-  height:0;
-  overflow:hidden;
-}
-
-.video iframe, .video object, .video embed {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-  }
-
-iframe{
-  width: 100%;
-  height: calc((100vw*9) /16);
-}
 .buttons{
   margin-top: 1em;
   font-size:0.8em;
@@ -172,6 +150,7 @@ a:hover {
   }
   body #about{
     margin-bottom: 200px;
+    font-size: 3em;
   }
   .header{
     font-size: 2em;
@@ -186,8 +165,7 @@ a:hover {
     min-height: 100px;
   }
     #about{
-      min-width: 80vw; /*PHONE FIX*/
-      font-size: 2em;
+      max-width: 85vw; /*PHONE FIX*/
     }
 
    #about img{
@@ -211,14 +189,14 @@ a:hover {
   }
     /*PHONE*/
      .box{
-      min-width: 90vw; 
+      max-width: 85vw; 
       font-size: 5em;
     }
   .box img{
     min-height: 400px;
   }
     #about{
-      min-width: 80vw; /*PHONE FIX*/
+      max-width: 85vw; /*PHONE FIX*/
       font-size: 7.5em;
     }
 
