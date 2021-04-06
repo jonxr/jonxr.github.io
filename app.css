@@ -175,10 +175,11 @@ a:hover {
     margin:1em;
   }
   .footer a{
-    font-size: 1em;
+    font-size: 2em;
   }
 }
 
+/*2400 1080*/
 @media only screen and (min-height: 3200px){
   body{
     height: 100vh;
@@ -207,6 +208,6 @@ a:hover {
     margin:1em;
   }
   .footer a{
-    font-size: 3em;
+    font-size: 2em;
   }
 }
