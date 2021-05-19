@@ -111,10 +111,14 @@ h3:hover{
     font-size:1.5em;
 }
 
+#links a{
+  color: white;
+}
 
-  #lang{
-    font-size: 0.8em;
-  }
+#lang{
+  font-size: 0.8em;
+}
+
 a {
     color: white;
     margin: 1em;
