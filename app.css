@@ -165,11 +165,11 @@ a:hover {
   .box img{
     min-height: 100px;
   }
-    .bio{
+    #bio{
       max-width: 85vw; /*PHONE FIX*/
     }
 
-   .bio img{
+   #bio img{
     min-width: 10vw;
     border: 0.15em black ;
     border-radius: 100em;
@@ -197,12 +197,12 @@ a:hover {
   .box img{
     min-height: 400px;
   }
-    .bio{
+    #bio{
       max-width: 85vw; /*PHONE FIX*/
       font-size: 7.5em;
     }
 
-   .bio img{
+   #bio img{
     min-width: 50vw;
     border: 0.15em black ;
     border-radius: 100em;
