@@ -152,7 +152,7 @@ a:hover {
   body #skills{
     margin-bottom: 150px;
   }
-  body #about{
+  body #bio{
     margin-bottom: 200px;
     font-size: 3em;
   }
@@ -168,11 +168,11 @@ a:hover {
   .box img{
     min-height: 100px;
   }
-    #about{
+    #bio{
       max-width: 85vw; /*PHONE FIX*/
     }
 
-   #about img{
+   #bio img{
     min-width: 10vw;
     border: 0.15em black ;
     border-radius: 100em;
@@ -200,12 +200,12 @@ a:hover {
   .box img{
     min-height: 400px;
   }
-    #about{
+    #bio{
       max-width: 85vw; /*PHONE FIX*/
       font-size: 7.5em;
     }
 
-   #about img{
+   #bio img{
     min-width: 50vw;
     border: 0.15em black ;
     border-radius: 100em;
