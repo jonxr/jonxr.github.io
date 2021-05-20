@@ -279,6 +279,7 @@ a {
 
 #x a{
   font-size: 4em;
+  color:white;
 }
 #x a:hover {
   color:gray;
