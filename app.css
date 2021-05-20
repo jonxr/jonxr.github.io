@@ -148,6 +148,7 @@ a {
     margin-bottom: 200px;
     font-size: 3em;
   }
+
   .header{
     font-size: 2em;
   }
@@ -161,11 +162,11 @@ a {
     min-height: 200px;
   }
 
-    #bio, #intro{
+    #bio{
       max-width: 85vw; /*PHONE FIX*/
     }
 
-   #bio img, #intro img{
+   #bio img{
     min-width: 10vw;
     border: 0.15em black ;
     border-radius: 100em;
@@ -193,12 +194,12 @@ a {
   .box img{
     min-height: 400px;
   }
-    #bio, #intro{
+    #bio{
       max-width: 85vw; /*PHONE FIX*/
       font-size: 7.5em;
     }
 
-   #bio img, #intro img{
+   #bio img{
     min-width: 50vw;
     border: 0.15em black ;
     border-radius: 100em;
