@@ -107,6 +107,7 @@ h3:hover{
 
 .header a{
   font-size: 2em;
+  color: white;
 }
 
 .footer a{
@@ -115,10 +116,6 @@ h3:hover{
 
 #links a{
   color: white;
-}
-
-#lang{
-  font-size: 0.8em;
 }
 
 a {
@@ -234,7 +231,8 @@ a {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: center;
+  position: absolute;
+  float: center; 
   padding: 0.5em;
   background-color: #f9f9f9;
   border-radius: 0.25em;
@@ -246,6 +244,7 @@ a {
 /* Links inside the dropdown */
 .dropdown-content a {
   padding: 0.5em;
+   min-width: 200px;
   text-align: center;
   color: black;
   text-decoration: none;
@@ -269,17 +268,8 @@ a {
   border-radius: 0.5em;
 }
 
-#titles a:hover {
-  color:gray;
-}
-
-#langTitle a:hover {
-  color:gray;
-}
-
 #x a{
   font-size: 4em;
-  color:white;
 }
 #x a:hover {
   color:gray;
