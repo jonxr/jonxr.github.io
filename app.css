@@ -270,6 +270,10 @@ a {
   border-radius: 0.5em;
 }
 
+#links .dropdown-content a{
+  color: black;
+}
+
 #x a{
   font-size: 4em;
   color:white;
