@@ -83,10 +83,13 @@ h3:hover{
 }
 
 .bg {
-  background-color: ;
   display: flex;
   flex-wrap: wrap;
   width: 99%;
+}
+
+#bio {
+  width: 50%;
 }
 
 .header{
@@ -288,5 +291,9 @@ a {
 }
 
 #swot img, #mbti img{
-  min-height: 800px;
+  min-height: 600px;
+}
+
+#fun{
+  margin-bottom: 190px;
 }
